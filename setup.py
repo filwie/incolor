@@ -19,18 +19,18 @@ def requirements() -> List[str]:
         return r.split()
     return []
 
-setup(name='',
+setup(name='incolor',
       version='0.0.1',
-      description='',
+      description='Add color codes to strings or print in color.',
       long_description=readme(),
       classifiers=[
           'Programming Language :: Python :: 3',
           'License :: OSI Approved :: MIT License',
       ],
-      keywords='',
-      url='',
-      author='',
-      author_email='',
+      keywords='color',
+      url='https://github.com/filwie/incolor',
+      author='Filip Wiechec',
+      author_email='filip.wiechec@gmail.com',
       license='MIT',
       packages=find_packages(),
       install_requires=requirements(),
