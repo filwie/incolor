@@ -49,6 +49,7 @@ Prerequisites:
 - Internet connection 😃
 
 ## #TODO
+- [ ] add detection of piping - strip color codes if piped to file
 - [ ] verify Windows support (probably not working?)
 - [ ] add more ways to specify colors (f.e. from string: `'red'`)
 - [ ] add support for `256 colors`
