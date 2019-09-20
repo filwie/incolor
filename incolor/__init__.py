@@ -7,9 +7,7 @@ class ColorError(Exception):
 
 
 class Color:
-    names = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white',
-             'brblack', 'brred', 'brgreen', 'bryellow', 'brblue', 'brmagenta', 'brcyan', 'brwhite']
-
+    names = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white']
 
 for color_number, color_name in enumerate(Color.names):
     setattr(Color, color_name, color_number)
@@ -21,7 +19,7 @@ class ColorCode:
         'windows': '^<ESC^>'
     }
 
-    def __init__(self, number=Color.brwhite):
+    def __init__(self, number=0):
         self.number = number
 
     @property
