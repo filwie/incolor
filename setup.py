@@ -19,6 +19,7 @@ def requirements() -> List[str]:
         return r.split()
     return []
 
+
 setup(name='incolor',
       version='0.0.1',
       description='Add color codes to strings or print in color.',
