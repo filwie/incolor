@@ -21,7 +21,7 @@ def requirements() -> List[str]:
 
 
 setup(name='incolor',
-      version='0.0.1',
+      version='0.1',
       description='Add color codes to strings or print in color.',
       long_description=readme(),
       classifiers=[
