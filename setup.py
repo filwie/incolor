@@ -24,6 +24,7 @@ setup(name='incolor',
       version='0.1',
       description='Add color codes to strings or print in color.',
       long_description=readme(),
+      long_description_content_type='text/markdown',
       classifiers=[
           'Programming Language :: Python :: 3',
           'License :: OSI Approved :: MIT License',
