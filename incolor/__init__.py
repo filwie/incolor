@@ -46,5 +46,5 @@ def incolor(color: int, *args, sep=' ', only_tty=True) -> str:
     return f'{ColorCode(color).code}{text}{ColorCode().reset}'
 
 
-def cprint(*args, **kwargs):
-    print(incolor(*args, **kwargs))
+def cprint(*args, only_tty=True, end='\n', file=stdout, flush=False):
+    print(incolor(*args, only_tty=only_tty), end=end, file=file, flush=flush)
